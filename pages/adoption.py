@@ -7,9 +7,17 @@ def load_data():
 
 df = load_data()
 
-st.title("🐾 認領養資料")
+# 初始化 session state
+if "index" not in st.session_state:
+    st.session_state.index = 0
+if "favorites" not in st.session_state:
+    st.session_state.favorites = []
 
-for index, row in df.iterrows():
+st.title("🐾 狗勾配對")
+
+if st.session_state.index < len(df):
+    row = df.iloc[st.session_state.index]
+
     with st.container(border=True):
         cols = st.columns([1, 2])
         with cols[0]:
@@ -24,3 +32,16 @@ for index, row in df.iterrows():
             - 📍 地址：{row['shelter_address']}
             - ☎️ 電話：{row['shelter_tel']}
             """)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("❤️ 有興趣"):
+            st.session_state.favorites.append(row.to_dict())
+            st.session_state.index += 1
+            st.rerun()
+    with col2:
+        if st.button("❌ 沒有興趣"):
+            st.session_state.index += 1
+            st.rerun()
+else:
+    st.success("你已經看完所有資料囉！")
