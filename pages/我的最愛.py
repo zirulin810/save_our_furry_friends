@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🌟 我的最愛")
+st.title("❤️ 我的最愛")
 
 favorites = st.session_state.get("favorites", [])
 
