@@ -1,0 +1,759 @@
+﻿Dog Breed,Category,Symptom,Breed (EN)
+吉娃娃,毛髮皮膚,斑狀毛色,Chihuahua
+吉娃娃,毛髮皮膚,犬型禿髮,Chihuahua
+吉娃娃,眼睛,玻璃體退化,Chihuahua
+吉娃娃,眼睛,持續性瞳孔膜,Chihuahua
+吉娃娃,眼睛,白內障,Chihuahua
+吉娃娃,眼睛,漸進性視網膜萎縮症,Chihuahua
+吉娃娃,眼睛,角膜營養不良,Chihuahua
+吉娃娃,骨骼及關節,髕骨異位,Chihuahua
+吉娃娃,骨骼及關節,髖關節發育不良和股骨頭缺血性壞死,Chihuahua
+吉娃娃,骨骼及關節,肘關節增生不良,Chihuahua
+吉娃娃,血液,肝門脈系統分流,Chihuahua
+吉娃娃,心臟,慢性瓣膜性心臟病／心臟瓣膜病變,Chihuahua
+吉娃娃,心臟,肺動脈狹窄症,Chihuahua
+吉娃娃,呼吸系統,氣管塌陷,Chihuahua
+吉娃娃,消化排泄系統,臍疝氣,Chihuahua
+吉娃娃,泌尿系統,泌尿系統結石,Chihuahua
+吉娃娃,內分泌系統,甲狀腺功能低下,Chihuahua
+吉娃娃,腦及神經,水腦症,Chihuahua
+吉娃娃,腦及神經,壞死性腦膜炎,Chihuahua
+吉娃娃,畸形,唇顎裂,Chihuahua
+吉娃娃,生殖系統,隱睪,Chihuahua
+吉娃娃,嘴及口腔,咬合不足,Chihuahua
+吉娃娃,嘴及口腔,咬合過度和歪嘴症,Chihuahua
+吉娃娃,肌肉,後天重症肌無力,Chihuahua
+約克夏,毛髮皮膚,過敏性皮炎,Yorkshire Terrier
+約克夏,毛髮皮膚,皮癬,Yorkshire Terrier
+約克夏,毛髮皮膚,皮膚漿液瘤,Yorkshire Terrier
+約克夏,眼睛,永久性瞳孔殘膜,Yorkshire Terrier
+約克夏,眼睛,乾眼症,Yorkshire Terrier
+約克夏,眼睛,白內障,Yorkshire Terrier
+約克夏,眼睛,漸進性視網膜萎縮症,Yorkshire Terrier
+約克夏,眼睛,多生睫毛,Yorkshire Terrier
+約克夏,眼睛,視網膜增生不良,Yorkshire Terrier
+約克夏,眼睛,角膜營養不良,Yorkshire Terrier
+約克夏,骨骼及關節,髕骨脫臼,Yorkshire Terrier
+約克夏,骨骼及關節,髖關節增生不良,Yorkshire Terrier
+約克夏,骨骼及關節,肘關節增生不良,Yorkshire Terrier
+約克夏,血液,肝門脈系統分流,Yorkshire Terrier
+約克夏,血液,低血糖症,Yorkshire Terrier
+約克夏,心臟,瓣膜性心臟病,Yorkshire Terrier
+約克夏,心臟,心室中膈缺陷,Yorkshire Terrier
+約克夏,呼吸系統,氣管塌陷,Yorkshire Terrier
+約克夏,消化排泄系統,蛋白質流失性腸病,Yorkshire Terrier
+約克夏,泌尿系統,泌尿道結石,Yorkshire Terrier
+約克夏,內分泌系統,糖尿病,Yorkshire Terrier
+約克夏,內分泌系統,腎上腺皮質功能亢進症（庫興氏症候群）,Yorkshire Terrier
+約克夏,內分泌系統,甲狀腺功能減退症,Yorkshire Terrier
+約克夏,腦及神經,壞死性腦膜腦炎,Yorkshire Terrier
+約克夏,生殖系統,隱睪,Yorkshire Terrier
+馬爾濟斯,眼睛,永久性瞳孔殘膜,Maltese
+馬爾濟斯,眼睛,多生睫毛,Maltese
+馬爾濟斯,眼睛,白內障,Maltese
+馬爾濟斯,眼睛,視網膜增生不良,Maltese
+馬爾濟斯,骨骼及關節,髖關節增生不良,Maltese
+馬爾濟斯,骨骼及關節,髕骨異位,Maltese
+馬爾濟斯,骨骼及關節,肘關節增生不良,Maltese
+馬爾濟斯,血液,肝門脈系統分流,Maltese
+馬爾濟斯,心臟,開放性動脈導管,Maltese
+馬爾濟斯,消化排泄系統,蛋白質流失性腸病,Maltese
+馬爾濟斯,消化排泄系統,肛門閉鎖症,Maltese
+馬爾濟斯,內分泌系統,甲狀腺功能減退症,Maltese
+馬爾濟斯,腦及神經,水腦症,Maltese
+馬爾濟斯,腦及神經,壞死性腦膜腦炎／巴哥犬腦炎,Maltese
+馬爾濟斯,腦及神經,白狗搖擺症候群,Maltese
+馬爾濟斯,腫瘤及癌症,脾臟腫瘤,Maltese
+馬爾濟斯,腫瘤及癌症,胃腸道肥大細胞腫瘤,Maltese
+馬爾濟斯,腫瘤及癌症,睾丸腫瘤,Maltese
+馬爾濟斯,耳朵,耳聾,Maltese
+馬爾濟斯,免疫系統,自身免疫性溶血性貧血,Maltese
+蝴蝶犬,眼睛,漸進性視網膜萎縮症,Papillon
+蝴蝶犬,眼睛,玻璃體退化,Papillon
+蝴蝶犬,眼睛,永久性瞳孔殘膜,Papillon
+蝴蝶犬,眼睛,白內障,Papillon
+蝴蝶犬,眼睛,多生睫毛,Papillon
+蝴蝶犬,骨骼及關節,髕骨脫臼,Papillon
+蝴蝶犬,骨骼及關節,髖關節增生不良,Papillon
+蝴蝶犬,骨骼及關節,肘關節增生不良,Papillon
+蝴蝶犬,血液,類血友病/溫韋伯氏疾病,Papillon
+蝴蝶犬,血液,肝門脈系統分流,Papillon
+蝴蝶犬,內分泌系統,甲狀腺功能低下,Papillon
+蝴蝶犬,腦及神經,神經軸突營養不良症,Papillon
+蝴蝶犬,腦及神經,癲癇,Papillon
+蝴蝶犬,腦及神經,水腦症,Papillon
+蝴蝶犬,脊椎脊髓及神經,椎間盤疾病,Papillon
+蝴蝶犬,畸形,囟門未閉合,Papillon
+蝴蝶犬,畸形,唇顎裂,Papillon
+蝴蝶犬,生殖系統,隱睪症,Papillon
+蝴蝶犬,耳朵,耳聾,Papillon
+博美犬,毛髮皮膚,X脫毛症,Pomeranian
+博美犬,眼睛,多生睫毛,Pomeranian
+博美犬,眼睛,持久性瞳孔殘膜,Pomeranian
+博美犬,眼睛,白內障,Pomeranian
+博美犬,眼睛,玻璃體退化,Pomeranian
+博美犬,眼睛,漸進性視網膜萎縮症,Pomeranian
+博美犬,骨骼及關節,髕骨異位,Pomeranian
+博美犬,骨骼及關節,肘關節發育不良,Pomeranian
+博美犬,心臟,開放性動脈導管,Pomeranian
+博美犬,心臟,慢性瓣膜性心臟病,Pomeranian
+博美犬,呼吸系統,氣管坍塌,Pomeranian
+博美犬,泌尿系統,高尿酸尿症／膀胱結石,Pomeranian
+博美犬,內分泌系統,甲狀腺功能低下,Pomeranian
+博美犬,腦及神經,水腦症,Pomeranian
+博美犬,腦及神經,壞死性腦膜腦炎,Pomeranian
+博美犬,脊椎脊髓及神經,寰樞椎間半脫臼,Pomeranian
+巴哥犬,毛髮皮膚,過敏性皮炎,Pug
+巴哥犬,眼睛,眼瞼內翻,Pug
+巴哥犬,眼睛,暴露角膜病變綜合症/色素性角膜炎,Pug
+巴哥犬,眼睛,永久性瞳孔殘膜,Pug
+巴哥犬,眼睛,多生睫毛,Pug
+巴哥犬,眼睛,慢性淺表性角膜炎,Pug
+巴哥犬,眼睛,大眼瞼症,Pug
+巴哥犬,眼睛,白內障,Pug
+巴哥犬,骨骼及關節,髖關節發育不良和股骨頭缺血性壞死,Pug
+巴哥犬,骨骼及關節,肘關節發育不良,Pug
+巴哥犬,骨骼及關節,髕骨異位,Pug
+巴哥犬,血液,肝門脈系統分流,Pug
+巴哥犬,呼吸系統,肺葉捻轉,Pug
+巴哥犬,呼吸系統,短吻犬呼吸道症候群,Pug
+巴哥犬,泌尿系統,膀胱結石,Pug
+巴哥犬,內分泌系統,糖尿病,Pug
+巴哥犬,內分泌系統,甲狀腺功能低下,Pug
+巴哥犬,腦及神經,巴哥犬腦炎,Pug
+巴哥犬,脊椎脊髓及神經,退化性脊髓病,Pug
+巴哥犬,脊椎脊髓及神經,半脊椎及蝴蝶椎,Pug
+巴哥犬,腫瘤及癌症,肥大細胞瘤,Pug
+巴哥犬,畸形,胎兒水腫,Pug
+北京犬,毛髮皮膚,肛門腺疾病,Pekingese
+北京犬,眼睛,白內障,Pekingese
+北京犬,眼睛,乾眼症,Pekingese
+北京犬,眼睛,多生睫毛,Pekingese
+北京犬,眼睛,原發性青光眼,Pekingese
+北京犬,眼睛,慢性淺表性角膜炎,Pekingese
+北京犬,眼睛,異生睫毛,Pekingese
+北京犬,眼睛,眼瞼內翻,Pekingese
+北京犬,眼睛,暴露性角膜病變綜合症,Pekingese
+北京犬,眼睛,水晶體移位,Pekingese
+北京犬,眼睛,大眼瞼症,Pekingese
+北京犬,眼睛,漸進性視網膜萎縮症,Pekingese
+北京犬,骨骼及關節,髕骨異位,Pekingese
+北京犬,骨骼及關節,髖關節發育不良和股骨頭缺血性壞死,Pekingese
+北京犬,骨骼及關節,肘關節增生不良,Pekingese
+北京犬,血液,肝門脈系統分流,Pekingese
+北京犬,心臟,慢性瓣膜性心臟病,Pekingese
+北京犬,呼吸系統,短吻犬呼吸道症候群,Pekingese
+北京犬,消化排泄系統,會陰疝氣,Pekingese
+北京犬,泌尿系統,膀胱結石,Pekingese
+北京犬,內分泌系統,甲狀腺功能低下,Pekingese
+北京犬,腦及神經,壞死性腦膜腦炎,Pekingese
+北京犬,脊椎脊髓及神經,椎間盤突出,Pekingese
+北京犬,脊椎脊髓及神經,寰樞椎間半脫臼,Pekingese
+北京犬,腫瘤及癌症,睾丸細胞瘤,Pekingese
+比熊犬,毛髮皮膚,異位性皮膚炎,Bichon Frise
+比熊犬,眼睛,白內障,Bichon Frise
+比熊犬,眼睛,淚腺分泌過盛,Bichon Frise
+比熊犬,眼睛,多生睫毛,Bichon Frise
+比熊犬,眼睛,角膜內皮營養不良症,Bichon Frise
+比熊犬,眼睛,永久性性瞳孔殘膜,Bichon Frise
+比熊犬,眼睛,原發性青光眼,Bichon Frise
+比熊犬,骨骼及關節,髖關節發育不全與股骨頭缺血性壞死,Bichon Frise
+比熊犬,骨骼及關節,髕骨異位,Bichon Frise
+比熊犬,骨骼及關節,肘關節發育不良,Bichon Frise
+比熊犬,血液,肝門脈系統分流,Bichon Frise
+比熊犬,心臟,開放性動脈導管,Bichon Frise
+比熊犬,呼吸系統,纖毛運動異常症，部分動物會伴隨臟器逆位,Bichon Frise
+比熊犬,消化排泄系統,臍疝氣,Bichon Frise
+比熊犬,泌尿系統,尿路結石,Bichon Frise
+比熊犬,內分泌系統,甲狀腺功能低下,Bichon Frise
+比熊犬,內分泌系統,糖尿病,Bichon Frise
+比熊犬,生殖系統,隱睾症,Bichon Frise
+比熊犬,免疫系統,免疫性溶血,Bichon Frise
+貴賓犬,毛髮皮膚,皮脂腺炎,Poodle
+貴賓犬,毛髮皮膚,X脫毛症,Poodle
+貴賓犬,眼睛,漸進性視網膜萎縮症,Poodle
+貴賓犬,眼睛,多生睫毛,Poodle
+貴賓犬,眼睛,白內障,Poodle
+貴賓犬,眼睛,永久性瞳孔殘膜,Poodle
+貴賓犬,眼睛,繼發性青光眼,Poodle
+貴賓犬,眼睛,玻璃體退化,Poodle
+貴賓犬,眼睛,原發青光眼,Poodle
+貴賓犬,眼睛,水晶體誘發的晶體溶解性葡萄膜炎,Poodle
+貴賓犬,眼睛,視神經發育不良,Poodle
+貴賓犬,眼睛,溢淚,Poodle
+貴賓犬,骨骼及關節,髖關節發育不全,Poodle
+貴賓犬,骨骼及關節,髕關節異位,Poodle
+貴賓犬,骨骼及關節,肘部發育不良,Poodle
+貴賓犬,骨骼及關節,股骨頭缺血性壞死,Poodle
+貴賓犬,血液,溫韋伯氏疾病/類血友病,Poodle
+貴賓犬,心臟,二尖瓣疾病/鬱血性心力衰竭/斜體瓣病,Poodle
+貴賓犬,心臟,開放性動脈導管,Poodle
+貴賓犬,呼吸系統,支氣管擴張,Poodle
+貴賓犬,呼吸系統,氣管坍塌,Poodle
+貴賓犬,消化排泄系統,會陰疝氣,Poodle
+貴賓犬,泌尿系統,草酸鈣尿石症,Poodle
+貴賓犬,內分泌系統,糖尿病,Poodle
+貴賓犬,內分泌系統,腎上腺皮質功能亢進症(庫興氏症候群),Poodle
+貴賓犬,內分泌系統,甲低,Poodle
+貴賓犬,脊椎脊髓及神經,退化性脊髓病,Poodle
+貴賓犬,脊椎脊髓及神經,新生兒腦病,Poodle
+貴賓犬,腫瘤及癌症,舌部鱗狀上皮細胞癌,Poodle
+貴賓犬,腫瘤及癌症,乳腺骨肉瘤,Poodle
+貴賓犬,生殖系統,隱睪,Poodle
+貴賓犬,嘴及口腔,牙周病,Poodle
+貴賓犬,耳朵,外耳炎,Poodle
+貴賓犬,免疫系統,遺傳性自身免疫性甲狀腺炎,Poodle
+迷你雪納瑞,毛髮皮膚,淺層化膿性壞死溶解性皮膚炎,Miniature Schnauzer
+迷你雪納瑞,毛髮皮膚,雪納瑞粉刺症候群,Miniature Schnauzer
+迷你雪納瑞,眼睛,漸進性視網膜萎縮症,Miniature Schnauzer
+迷你雪納瑞,眼睛,視網膜增生不良,Miniature Schnauzer
+迷你雪納瑞,眼睛,先天性白內障和小眼症,Miniature Schnauzer
+迷你雪納瑞,眼睛,白內障,Miniature Schnauzer
+迷你雪納瑞,眼睛,永久性瞳孔殘膜,Miniature Schnauzer
+迷你雪納瑞,眼睛,睫毛倒插,Miniature Schnauzer
+迷你雪納瑞,眼睛,突發性急性視網膜退化症,Miniature Schnauzer
+迷你雪納瑞,骨骼及關節,髖關節發育不良,Miniature Schnauzer
+迷你雪納瑞,血液,肝門脈系統性分流,Miniature Schnauzer
+迷你雪納瑞,血液,不明原因性高脂蛋白血症,Miniature Schnauzer
+迷你雪納瑞,血液,遺傳性口型貧血,Miniature Schnauzer
+迷你雪納瑞,血液,動脈粥狀硬化(罕見),Miniature Schnauzer
+迷你雪納瑞,心臟,慢性二尖瓣病/二尖瓣脫垂,Miniature Schnauzer
+迷你雪納瑞,心臟,肺動脈瓣狹窄,Miniature Schnauzer
+迷你雪納瑞,心臟,病竇症後群,Miniature Schnauzer
+迷你雪納瑞,消化排泄系統,食道症/巨食道,Miniature Schnauzer
+迷你雪納瑞,消化排泄系統,胰臟炎,Miniature Schnauzer
+迷你雪納瑞,泌尿系統,泌尿系結石,Miniature Schnauzer
+迷你雪納瑞,泌尿系統,青少年時期腎病,Miniature Schnauzer
+迷你雪納瑞,內分泌系統,甲狀腺功能低下,Miniature Schnauzer
+迷你雪納瑞,內分泌系統,腎上腺皮質功能亢進症(庫興氏症候群),Miniature Schnauzer
+迷你雪納瑞,內分泌系統,糖尿病,Miniature Schnauzer
+迷你雪納瑞,腦及神經,神經性蠟樣脂褐質沈著症,Miniature Schnauzer
+迷你雪納瑞,脊椎脊髓及神經,脊髓纖維軟骨栓塞,Miniature Schnauzer
+迷你雪納瑞,生殖系統,慕勒氏管永存症,Miniature Schnauzer
+迷你雪納瑞,肌肉,先天性肌強直症,Miniature Schnauzer
+迷你雪納瑞,免疫系統,免疫性溶血性貧血,Miniature Schnauzer
+西施犬,眼睛,多生睫毛,Shih Tzu
+西施犬,眼睛,原發性青光眼,Shih Tzu
+西施犬,眼睛,溢淚,Shih Tzu
+西施犬,眼睛,眼瞼內翻,Shih Tzu
+西施犬,眼睛,玻璃體退化,Shih Tzu
+西施犬,眼睛,白內障,Shih Tzu
+西施犬,眼睛,大眼瞼症,Shih Tzu
+西施犬,眼睛,暴露性角膜炎症候群/色素性角膜炎,Shih Tzu
+西施犬,眼睛,睫毛倒插,Shih Tzu
+西施犬,眼睛,角膜內皮失養症,Shih Tzu
+西施犬,眼睛,瞬膜腺體脫出 (櫻桃眼),Shih Tzu
+西施犬,眼睛,漸進性視網膜退化症,Shih Tzu
+西施犬,眼睛,慢性淺層角膜炎,Shih Tzu
+西施犬,眼睛,乾眼症,Shih Tzu
+西施犬,眼睛,視神經發育不全,Shih Tzu
+西施犬,骨骼及關節,髖關節發育不全及股骨頭缺血性壞死,Shih Tzu
+西施犬,骨骼及關節,髕骨鬆弛,Shih Tzu
+西施犬,骨骼及關節,肘關節發育不全,Shih Tzu
+西施犬,血液,肝門脈系統分流,Shih Tzu
+西施犬,呼吸系統,短吻犬症候群,Shih Tzu
+西施犬,消化排泄系統,臍疝氣,Shih Tzu
+西施犬,泌尿系統,尿路結石,Shih Tzu
+西施犬,泌尿系統,腎發育不全／異常,Shih Tzu
+西施犬,內分泌系統,甲狀腺功能低下,Shih Tzu
+西施犬,腦及神經,癲癇,Shih Tzu
+西施犬,脊椎脊髓及神經,椎間盤突出疾病,Shih Tzu
+查理士小獵犬,毛髮皮膚,過敏性皮炎,Cavalier King Charles Spaniel
+查理士小獵犬,毛髮皮膚,皮脂腺囊腫,Cavalier King Charles Spaniel
+查理士小獵犬,毛髮皮膚,先天性角膜結膜炎及魚鱗狀皮膚病,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,視網膜增生不良,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,多生睫毛,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,角膜內皮失養症,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,白內障,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,先天性乾眼症,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,永久性瞳孔殘膜,Cavalier King Charles Spaniel
+查理士小獵犬,眼睛,小眼症,Cavalier King Charles Spaniel
+查理士小獵犬,骨骼及關節,髖關節發育不良和股骨頭缺血性壞死,Cavalier King Charles Spaniel
+查理士小獵犬,骨骼及關節,髕骨異位,Cavalier King Charles Spaniel
+查理士小獵犬,骨骼及關節,肘關節發育不良,Cavalier King Charles Spaniel
+查理士小獵犬,骨骼及關節,顳下頜關節發育不良,Cavalier King Charles Spaniel
+查理士小獵犬,血液,股動脈閉塞／動脈血栓栓塞症,Cavalier King Charles Spaniel
+查理士小獵犬,心臟,慢性二尖瓣病／二尖瓣脫垂,Cavalier King Charles Spaniel
+查理士小獵犬,呼吸系統,短吻犬症候群,Cavalier King Charles Spaniel
+查理士小獵犬,消化排泄系統,臍帶疝氣,Cavalier King Charles Spaniel
+查理士小獵犬,消化排泄系統,慢性胰腺炎,Cavalier King Charles Spaniel
+查理士小獵犬,泌尿系統,黃嘌呤尿症,Cavalier King Charles Spaniel
+查理士小獵犬,泌尿系統,黃嘌呤尿石症,Cavalier King Charles Spaniel
+查理士小獵犬,內分泌系統,胰臟腺胞萎縮,Cavalier King Charles Spaniel
+查理士小獵犬,內分泌系統,糖尿病,Cavalier King Charles Spaniel
+查理士小獵犬,內分泌系統,甲狀腺功能低下,Cavalier King Charles Spaniel
+查理士小獵犬,腦及神經,脊髓空洞症,Cavalier King Charles Spaniel
+查理士小獵犬,腦及神經,類奇亞里畸形／枕骨發育不全,Cavalier King Charles Spaniel
+查理士小獵犬,腦及神經,原因不明性癲癇,Cavalier King Charles Spaniel
+查理士小獵犬,脊椎脊隨及神經,椎間盤突出疾病,Cavalier King Charles Spaniel
+查理士小獵犬,肌肉,突發性癱倒,Cavalier King Charles Spaniel
+查理士小獵犬,肌肉,肌肉萎縮症,Cavalier King Charles Spaniel
+查理士小獵犬,耳朵,耳聾,Cavalier King Charles Spaniel
+查理士小獵犬,耳朵,原發性分泌性中耳炎,Cavalier King Charles Spaniel
+查理士小獵犬,免疫系統,嗜酸性炎症,Cavalier King Charles Spaniel
+西高地白㹴,毛髮皮膚,異位性皮膚炎,West Highland White Terrier
+西高地白㹴,毛髮皮膚,淺表壞死性皮膚炎,West Highland White Terrier
+西高地白㹴,毛髮皮膚,厚皮馬拉色菌感染,West Highland White Terrier
+西高地白㹴,眼睛,永久性瞳孔殘膜,West Highland White Terrier
+西高地白㹴,眼睛,白內障,West Highland White Terrier
+西高地白㹴,眼睛,乾眼症,West Highland White Terrier
+西高地白㹴,眼睛,視網膜增生不良,West Highland White Terrier
+西高地白㹴,眼睛,漸進性視網膜萎縮症,West Highland White Terrier
+西高地白㹴,骨骼及關節,髕骨異位,West Highland White Terrier
+西高地白㹴,骨骼及關節,髖關節發育不良和股骨頭缺血性壞死,West Highland White Terrier
+西高地白㹴,骨骼及關節,頭蓋骨下顎骨病,West Highland White Terrier
+西高地白㹴,骨骼及關節,肘關節增生不良,West Highland White Terrier
+西高地白㹴,血液,肝門脈系統分流,West Highland White Terrier
+西高地白㹴,血液,丙酮酸活化酶缺乏症,West Highland White Terrier
+西高地白㹴,心臟,二尖瓣疾病,West Highland White Terrier
+西高地白㹴,心臟,竇房結病變症後群,West Highland White Terrier
+西高地白㹴,呼吸系統,慢性間質性肺病,West Highland White Terrier
+西高地白㹴,消化排泄系統,炎症性腸病,West Highland White Terrier
+西高地白㹴,消化排泄系統,遺傳性銅中毒,West Highland White Terrier
+西高地白㹴,泌尿系統,腎臟增生不良,West Highland White Terrier
+西高地白㹴,泌尿系統,膀胱結石,West Highland White Terrier
+西高地白㹴,內分泌系統,糖尿病,West Highland White Terrier
+西高地白㹴,內分泌系統,腎上腺皮質功能亢進症（庫興氏症候群）,West Highland White Terrier
+西高地白㹴,內分泌系統,腎上腺皮質分泌不全（愛迪生氏症）,West Highland White Terrier
+西高地白㹴,內分泌系統,甲狀腺功能低下,West Highland White Terrier
+西高地白㹴,腦及神經,球細胞腦白質失養症,West Highland White Terrier
+西高地白㹴,腦及神經,白狗搖擺症後群,West Highland White Terrier
+西高地白㹴,腫瘤及癌症,淋巴瘤/淋巴肉瘤,West Highland White Terrier
+西高地白㹴,腫瘤及癌症,膀胱癌,West Highland White Terrier
+臘腸犬,毛髮皮膚,無菌性脂膜炎,Dachshund
+臘腸犬,毛髮皮膚,顏色稀釋性脫髮,Dachshund
+臘腸犬,眼睛,漸進性視網膜萎縮症,Dachshund
+臘腸犬,眼睛,永久性瞳孔殘膜,Dachshund
+臘腸犬,眼睛,虹膜缺損,Dachshund
+臘腸犬,眼睛,多生睫毛,Dachshund
+臘腸犬,眼睛,角膜營養不良,Dachshund
+臘腸犬,眼睛,白內障,Dachshund
+臘腸犬,眼睛,慢性淺層角膜炎,Dachshund
+臘腸犬,眼睛,點狀角膜炎,Dachshund
+臘腸犬,眼睛,視神經缺損,Dachshund
+臘腸犬,眼睛,小眼症,Dachshund
+臘腸犬,眼睛,視網膜增生不良,Dachshund
+臘腸犬,眼睛,視神經不全,Dachshund
+臘腸犬,眼睛,突發性後天性視網膜退變症候群,Dachshund
+臘腸犬,骨骼及關節,髖關節發育不良與股骨頭缺血性壞死,Dachshund
+臘腸犬,骨骼及關節,成骨不全症,Dachshund
+臘腸犬,骨骼及關節,髕骨異位,Dachshund
+臘腸犬,骨骼及關節,肘關節增生不良,Dachshund
+臘腸犬,血液,丙酮酸活化酶缺乏症,Dachshund
+臘腸犬,心臟,二尖瓣脫垂,Dachshund
+臘腸犬,泌尿系統,尿路結石,Dachshund
+臘腸犬,內分泌系統,腎上腺皮質功能亢進症(庫興氏症候群),Dachshund
+臘腸犬,內分泌系統,甲狀腺功能低下,Dachshund
+臘腸犬,腦及神經,漸進性肌陣攣性癲癇,Dachshund
+臘腸犬,腦及神經,猝睡症,Dachshund
+臘腸犬,腦及神經,神經性蠟樣脂褐質沈著症,Dachshund
+臘腸犬,脊椎脊髓及神經,椎間盤突出疾病,Dachshund
+臘腸犬,腫瘤及癌症,皮膚組織細胞瘤,Dachshund
+臘腸犬,嘴及口腔,牙周病,Dachshund
+臘腸犬,肌肉,會陰疝氣,Dachshund
+臘腸犬,肌肉,先天性重症肌無力,Dachshund
+臘腸犬,肌肉,鼻咽部發育不良/狹窄,Dachshund
+臘腸犬,耳朵,耳聾,Dachshund
+法國鬥牛犬,毛髮皮膚,過敏性皮膚炎,French Bulldog
+法國鬥牛犬,毛髮皮膚,毛囊蟲症,French Bulldog
+法國鬥牛犬,眼睛,永存性瞳孔殘膜,French Bulldog
+法國鬥牛犬,眼睛,視網膜增生不良,French Bulldog
+法國鬥牛犬,眼睛,眼瞼內翻,French Bulldog
+法國鬥牛犬,眼睛,幼年性白內障,French Bulldog
+法國鬥牛犬,眼睛,多生睫毛,French Bulldog
+法國鬥牛犬,骨骼及關節,髖關節發育不全,French Bulldog
+法國鬥牛犬,骨骼及關節,肘部發育不良,French Bulldog
+法國鬥牛犬,骨骼及關節,髕關節鬆脫/異位,French Bulldog
+法國鬥牛犬,血液,B型血友病(第九凝血因子缺乏症),French Bulldog
+法國鬥牛犬,心臟,肺動脈狹窄症,French Bulldog
+法國鬥牛犬,呼吸系統,短吻犬症候群,French Bulldog
+法國鬥牛犬,消化排泄系統,食道旁裂孔疝氣,French Bulldog
+法國鬥牛犬,消化排泄系統,組織細胞潰瘍性結腸炎,French Bulldog
+法國鬥牛犬,內分泌系統,甲狀腺功能減退/低下,French Bulldog
+法國鬥牛犬,腦及神經,壞死性腦膜炎/巴哥犬腦炎,French Bulldog
+法國鬥牛犬,脊椎脊髓及神經,半椎體和蝴蝶椎體,French Bulldog
+法國鬥牛犬,脊椎脊髓及神經,椎間盤病,French Bulldog
+法國鬥牛犬,脊椎脊髓及神經,退化性脊髓病,French Bulldog
+法國鬥牛犬,生殖系統,隱睪,French Bulldog
+威爾斯柯基犬,眼睛,永久性瞳孔殘膜,Welsh Corgi
+威爾斯柯基犬,眼睛,多生睫毛,Welsh Corgi
+威爾斯柯基犬,眼睛,白內障,Welsh Corgi
+威爾斯柯基犬,眼睛,原發性窄角青光眼,Welsh Corgi
+威爾斯柯基犬,眼睛,漸進性視網膜萎縮症,Welsh Corgi
+威爾斯柯基犬,眼睛,視網膜增生不良,Welsh Corgi
+威爾斯柯基犬,骨骼及關節,髖關節增生不良,Welsh Corgi
+威爾斯柯基犬,骨骼及關節,肘部增生不良,Welsh Corgi
+威爾斯柯基犬,骨骼及關節,髕骨脫臼,Welsh Corgi
+威爾斯柯基犬,消化排泄系統,會陰疝氣,Welsh Corgi
+威爾斯柯基犬,泌尿系統,胱氨酸尿症/胱氨酸膀胱結石,Welsh Corgi
+威爾斯柯基犬,內分泌系統,甲狀腺功能低下,Welsh Corgi
+威爾斯柯基犬,脊椎脊髓及神經,退化性脊髓病,Welsh Corgi
+威爾斯柯基犬,脊椎脊髓及神經,椎間盤突出疾病,Welsh Corgi
+柴犬,毛髮皮膚,過敏性皮膚炎,Shiba Inu
+柴犬,眼睛,永久性瞳孔殘膜,Shiba Inu
+柴犬,眼睛,多生睫毛,Shiba Inu
+柴犬,眼睛,白內障,Shiba Inu
+柴犬,眼睛,青光眼,Shiba Inu
+柴犬,骨骼及關節,髖關節發育不良,Shiba Inu
+柴犬,骨骼及關節,髖骨脫臼,Shiba Inu
+柴犬,骨骼及關節,肘關節發育不良,Shiba Inu
+柴犬,心臟,心室隔膜缺陷,Shiba Inu
+柴犬,內分泌系統,甲狀腺功能減退,Shiba Inu
+柴犬,腦及神經,神經節甘脂儲積症,Shiba Inu
+喜樂蒂牧羊犬,毛髮皮膚,皮肌炎,Shetland Sheepdog
+喜樂蒂牧羊犬,毛髮皮膚,淺層壞死性皮炎,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,牧羊犬眼球異常,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,永久性瞳孔殘膜,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,白內障,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,多生睫毛,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,角膜營養不良,Shetland Sheepdog
+喜樂蒂牧羊犬,眼睛,眼色素層皮膚症候群,Shetland Sheepdog
+喜樂蒂牧羊犬,骨骼及關節,髖關節發育不全,Shetland Sheepdog
+喜樂蒂牧羊犬,骨骼及關節,髕骨異位,Shetland Sheepdog
+喜樂蒂牧羊犬,骨骼及關節,肘部發育不良,Shetland Sheepdog
+喜樂蒂牧羊犬,骨骼及關節,脛骨遠端外翻畸形,Shetland Sheepdog
+喜樂蒂牧羊犬,骨骼及關節,趾淺肌腱外側鬆弛,Shetland Sheepdog
+喜樂蒂牧羊犬,心臟,開放性動脈導管,Shetland Sheepdog
+喜樂蒂牧羊犬,消化排泄系統,膽囊黏液囊腫,Shetland Sheepdog
+喜樂蒂牧羊犬,泌尿系統,腎病,Shetland Sheepdog
+喜樂蒂牧羊犬,內分泌系統,甲狀腺機能低下症,Shetland Sheepdog
+喜樂蒂牧羊犬,腦及神經,癲癇,Shetland Sheepdog
+喜樂蒂牧羊犬,嘴及口腔,上頜犬牙錯位,Shetland Sheepdog
+喜樂蒂牧羊犬,免疫系統,自身免疫性溶血性貧血,Shetland Sheepdog
+喜樂蒂牧羊犬,免疫系統,泡狀皮膚紅斑狼瘡,Shetland Sheepdog
+米格魯,眼睛,原發性青光眼,Beagle
+米格魯,眼睛,多生睫毛,Beagle
+米格魯,眼睛,視網膜增生不良,Beagle
+米格魯,眼睛,白內障,Beagle
+米格魯,眼睛,角膜營養不良,Beagle
+米格魯,眼睛,永久性瞳孔殘膜,Beagle
+米格魯,眼睛,瞬膜腺體脫出(櫻桃眼),Beagle
+米格魯,眼睛,小眼症與多種先天性眼球缺陷,Beagle
+米格魯,眼睛,明朗毯退化症,Beagle
+米格魯,骨骼及關節,髖關節發育不良,Beagle
+米格魯,骨骼及關節,髕骨異位,Beagle
+米格魯,骨骼及關節,軟骨增生不良,Beagle
+米格魯,骨骼及關節,肘關節發育不良,Beagle
+米格魯,血液,第七凝血因子缺乏症,Beagle
+米格魯,血液,丙酮酸激酶缺乏症,Beagle
+米格魯,血液,幼年多動脈炎,Beagle
+米格魯,心臟,肺動脈瓣狹窄,Beagle
+米格魯,泌尿系統,腎臟澱粉樣變性病,Beagle
+米格魯,內分泌系統,糖尿病,Beagle
+米格魯,內分泌系統,甲狀腺功能低下,Beagle
+米格魯,腦及神經,癲癇,Beagle
+米格魯,腦及神經,進行性肌陣攣性癲癇,Beagle
+米格魯,脊椎脊髓及神經,椎間盤疾病,Beagle
+米格魯,腫瘤及癌症,膀胱和尿道腫瘤,Beagle
+米格魯,生殖系統,隱睪,Beagle
+米格魯,嘴及口腔,牙周病,Beagle
+米格魯,耳朵,耳聾,Beagle
+英國鬥牛犬,毛髮皮膚,毛囊蟲症,English Bulldog
+英國鬥牛犬,眼睛,多生睫毛,English Bulldog
+英國鬥牛犬,眼睛,眼瞼內翻,English Bulldog
+英國鬥牛犬,眼睛,眼瞼外翻,English Bulldog
+英國鬥牛犬,眼睛,視網膜增生不良,English Bulldog
+英國鬥牛犬,眼睛,瞬膜腺體脫垂（櫻桃眼）,English Bulldog
+英國鬥牛犬,眼睛,乾眼症,English Bulldog
+英國鬥牛犬,眼睛,永久性瞳孔殘膜,English Bulldog
+英國鬥牛犬,眼睛,白內障,English Bulldog
+英國鬥牛犬,眼睛,慢性淺層角膜炎,English Bulldog
+英國鬥牛犬,骨骼及關節,髖關節發育不良,English Bulldog
+英國鬥牛犬,骨骼及關節,肘關節發育不良,English Bulldog
+英國鬥牛犬,骨骼及關節,髕骨異位,English Bulldog
+英國鬥牛犬,骨骼及關節,分離性骨軟骨炎,English Bulldog
+英國鬥牛犬,心臟,肺動脈狹窄症,English Bulldog
+英國鬥牛犬,呼吸系統,短吻犬呼吸道症候群,English Bulldog
+英國鬥牛犬,消化排泄系統,食道裂孔疝氣,English Bulldog
+英國鬥牛犬,泌尿系統,高尿酸尿症/尿路結石症,English Bulldog
+英國鬥牛犬,泌尿系統,胱氨酸尿石症,English Bulldog
+英國鬥牛犬,內分泌系統,甲狀腺功能減退症,English Bulldog
+英國鬥牛犬,脊椎脊髓及神經,脊柱裂,English Bulldog
+英國鬥牛犬,畸形,全身性水腫(致命性先天性水腫，Anasarca),English Bulldog
+邊境牧羊犬,眼睛,牧羊犬眼球異常/先天性視網膜脈絡膜缺損,Border Collie
+邊境牧羊犬,眼睛,漸進性視網膜萎縮症,Border Collie
+邊境牧羊犬,眼睛,永久性瞳孔膜,Border Collie
+邊境牧羊犬,眼睛,玻璃體移位,Border Collie
+邊境牧羊犬,眼睛,白內障,Border Collie
+邊境牧羊犬,眼睛,視網膜增生不良,Border Collie
+邊境牧羊犬,骨骼及關節,髖關節發育不良,Border Collie
+邊境牧羊犬,骨骼及關節,肘關節發育不良,Border Collie
+邊境牧羊犬,骨骼及關節,髕骨異位,Border Collie
+邊境牧羊犬,骨骼及關節,骨軟骨病,Border Collie
+邊境牧羊犬,血液,嗜中性白血球困阻症,Border Collie
+邊境牧羊犬,血液,肝門脈系統分流,Border Collie
+邊境牧羊犬,內分泌系統,糖尿病,Border Collie
+邊境牧羊犬,內分泌系統,甲狀腺功能減退症,Border Collie
+邊境牧羊犬,腦及神經,神經性蠟樣脂褐質沈著症,Border Collie
+邊境牧羊犬,腦及神經,癲癇,Border Collie
+邊境牧羊犬,腦及神經,小腦營養性衰竭,Border Collie
+邊境牧羊犬,耳朵,耳聾,Border Collie
+鬆獅犬,毛髮皮膚,皮脂腺炎,Chow Chow
+鬆獅犬,毛髮皮膚,X脫毛症,Chow Chow
+鬆獅犬,毛髮皮膚,落葉型天皰瘡,Chow Chow
+鬆獅犬,眼睛,永久性瞳孔殘膜,Chow Chow
+鬆獅犬,眼睛,眼瞼內翻,Chow Chow
+鬆獅犬,眼睛,原發性青光眼,Chow Chow
+鬆獅犬,眼睛,角膜營養不良,Chow Chow
+鬆獅犬,眼睛,暴露性角膜病變症後群,Chow Chow
+鬆獅犬,眼睛,眼瞼外翻,Chow Chow
+鬆獅犬,眼睛,白內障,Chow Chow
+鬆獅犬,眼睛,慢性淺表性角膜炎,Chow Chow
+鬆獅犬,骨骼及關節,髖關節發育不良,Chow Chow
+鬆獅犬,骨骼及關節,髕骨異位,Chow Chow
+鬆獅犬,骨骼及關節,肘關節發育不良,Chow Chow
+鬆獅犬,心臟,不完全房室傳導阻滯,Chow Chow
+鬆獅犬,心臟,肺動脈狹窄症,Chow Chow
+鬆獅犬,消化排泄系統,胃扭轉,Chow Chow
+鬆獅犬,消化排泄系統,胰臟腺胞細胞萎縮,Chow Chow
+鬆獅犬,泌尿系統,家族性青少年時期腎病,Chow Chow
+鬆獅犬,內分泌系統,甲狀腺功能低下,Chow Chow
+鬆獅犬,腦及神經,去髓鞘疾病,Chow Chow
+鬆獅犬,腫瘤及癌症,胃癌,Chow Chow
+鬆獅犬,腫瘤及癌症,口腔和舌部黑色素瘤,Chow Chow
+鬆獅犬,肌肉,前十字韌帶斷裂,Chow Chow
+鬆獅犬,肌肉,先天性肌強直症,Chow Chow
+哈士奇,毛髮皮膚,鋅反應性皮膚病,Siberian Husky
+哈士奇,毛髮皮膚,眼色素層皮膚症候群,Siberian Husky
+哈士奇,毛髮皮膚,X脫毛症,Siberian Husky
+哈士奇,眼睛,角膜營養不良,Siberian Husky
+哈士奇,眼睛,X性聯漸進性視網膜退化症,Siberian Husky
+哈士奇,眼睛,原發性青光眼,Siberian Husky
+哈士奇,眼睛,永久性瞳孔殘膜,Siberian Husky
+哈士奇,眼睛,慢性淺層角膜炎,Siberian Husky
+哈士奇,眼睛,幼年白內障,Siberian Husky
+哈士奇,骨骼及關節,髕骨異位,Siberian Husky
+哈士奇,骨骼及關節,髖關節發育不全,Siberian Husky
+哈士奇,呼吸系統,支氣管擴張症,Siberian Husky
+哈士奇,呼吸系統,自發性氣胸,Siberian Husky
+哈士奇,泌尿系統,輸尿管異位,Siberian Husky
+哈士奇,內分泌系統,甲狀腺功能低下,Siberian Husky
+哈士奇,腦及神經,癲癇,Siberian Husky
+哈士奇,腫瘤及癌症,甲狀腺癌,Siberian Husky
+哈士奇,生殖系統,隱睪症,Siberian Husky
+哈士奇,免疫系統,嗜酸性炎症,Siberian Husky
+薩摩耶,毛髮皮膚,皮脂腺炎,Samoyed
+薩摩耶,毛髮皮膚,X-脫毛症,Samoyed
+薩摩耶,眼睛,X染色體遺傳性視網膜退化症,Samoyed
+薩摩耶,眼睛,眼睛及骨骼發育異常,Samoyed
+薩摩耶,眼睛,視網膜增生不良,Samoyed
+薩摩耶,眼睛,睫毛倒插,Samoyed
+薩摩耶,眼睛,角膜內皮失養症,Samoyed
+薩摩耶,眼睛,白內障,Samoyed
+薩摩耶,眼睛,永久性瞳孔殘膜,Samoyed
+薩摩耶,眼睛,原發性青光眼,Samoyed
+薩摩耶,眼睛,眼色素層皮膚症候群,Samoyed
+薩摩耶,骨骼及關節,髖關節發育不全,Samoyed
+薩摩耶,骨骼及關節,肘關節發育不全,Samoyed
+薩摩耶,心臟,肺動脈瓣狹窄,Samoyed
+薩摩耶,消化排泄系統,胃扭轉,Samoyed
+薩摩耶,內分泌系統,甲狀腺功能低下,Samoyed
+薩摩耶,內分泌系統,糖尿病,Samoyed
+薩摩耶,腫瘤及癌症,舌鱗狀上皮細胞癌,Samoyed
+黃金獵犬,毛髮皮膚,過敏性皮炎,Golden Retriever
+黃金獵犬,毛髮皮膚,皮脂漏,Golden Retriever
+黃金獵犬,毛髮皮膚,魚鱗癬/原發性皮膚角化缺陷,Golden Retriever
+黃金獵犬,毛髮皮膚,皮脂腺囊腫,Golden Retriever
+黃金獵犬,眼睛,漸進性視網膜萎縮症,Golden Retriever
+黃金獵犬,眼睛,睫毛倒插,Golden Retriever
+黃金獵犬,眼睛,白內障 虹膜囊腫,Golden Retriever
+黃金獵犬,眼睛,永久性瞳孔殘膜,Golden Retriever
+黃金獵犬,眼睛,葡萄膜炎,Golden Retriever
+黃金獵犬,眼睛,青光眼,Golden Retriever
+黃金獵犬,眼睛,視網膜增生不良,Golden Retriever
+黃金獵犬,眼睛,不明原因霍納氏症候群,Golden Retriever
+黃金獵犬,眼睛,自發性慢性角膜上皮缺損,Golden Retriever
+黃金獵犬,骨骼及關節,肘部發育不良,Golden Retriever
+黃金獵犬,骨骼及關節,肥大性骨營養不良症,Golden Retriever
+黃金獵犬,骨骼及關節,髖關節發育不良,Golden Retriever
+黃金獵犬,骨骼及關節,膝關節異位,Golden Retriever
+黃金獵犬,骨骼及關節,犬隻全骨炎,Golden Retriever
+黃金獵犬,骨骼及關節,剝離性骨軟骨炎,Golden Retriever
+黃金獵犬,血液,A型血友病,Golden Retriever
+黃金獵犬,血液,凝血因數(血影蛋白缺乏症),Golden Retriever
+黃金獵犬,血液,溫韋伯氏疾病(類血友病),Golden Retriever
+黃金獵犬,血液,白血病,Golden Retriever
+黃金獵犬,心臟,主動脈瓣下狹窄,Golden Retriever
+黃金獵犬,心臟,原因不明性心包囊積水,Golden Retriever
+黃金獵犬,消化排泄系統,巨食道,Golden Retriever
+黃金獵犬,消化排泄系統,胃擴張/扭轉,Golden Retriever
+黃金獵犬,泌尿系統,幼年腎臟發育不良,Golden Retriever
+黃金獵犬,內分泌系統,甲狀腺功能低下,Golden Retriever
+黃金獵犬,腦及神經,感覺運動神經軸突病變,Golden Retriever
+黃金獵犬,腦及神經,癲癇,Golden Retriever
+黃金獵犬,腫瘤及癌症,骨肉瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,眼球黑色素瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,脈絡叢腦瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,肥大細胞瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,口腔惡性黑色素瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,舌纖維肉瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,血管肉瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,淋巴瘤/淋巴肉瘤,Golden Retriever
+黃金獵犬,腫瘤及癌症,組織細胞肉瘤/組織細胞病,Golden Retriever
+黃金獵犬,腫瘤及癌症,甲狀腺癌,Golden Retriever
+黃金獵犬,腫瘤及癌症,顱內腦膜瘤,Golden Retriever
+黃金獵犬,肌肉,前十字韌帶斷裂,Golden Retriever
+黃金獵犬,肌肉,重症肌無力,Golden Retriever
+黃金獵犬,肌肉,環咽肌功能障礙/食道賁門弛緩不能症,Golden Retriever
+黃金獵犬,耳朵,外耳炎,Golden Retriever
+拉不拉多,毛髮皮膚,過敏性皮炎,Labrador Retriever
+拉不拉多,毛髮皮膚,皮膚界限性鈣鹽沉著症,Labrador Retriever
+拉不拉多,眼睛,視網膜增生不良,Labrador Retriever
+拉不拉多,眼睛,漸進性視網膜萎縮症,Labrador Retriever
+拉不拉多,眼睛,永久性瞳孔殘膜,Labrador Retriever
+拉不拉多,眼睛,白內障,Labrador Retriever
+拉不拉多,眼睛,雙睫症,Labrador Retriever
+拉不拉多,眼睛,角膜營養不良,Labrador Retriever
+拉不拉多,眼睛,眼瞼內翻,Labrador Retriever
+拉不拉多,眼睛,繼發性青光眼,Labrador Retriever
+拉不拉多,眼睛,葡萄膜囊腫,Labrador Retriever
+拉不拉多,骨骼及關節,髖關節發育不良,Labrador Retriever
+拉不拉多,骨骼及關節,肘關節發育不良,Labrador Retriever
+拉不拉多,骨骼及關節,膝關節鬆弛,Labrador Retriever
+拉不拉多,骨骼及關節,骨軟骨炎,Labrador Retriever
+拉不拉多,骨骼及關節,肥大性骨營養不良症,Labrador Retriever
+拉不拉多,骨骼及關節,棘下肌滑液囊硬化症,Labrador Retriever
+拉不拉多,血液,免疫性溶血性貧血,Labrador Retriever
+拉不拉多,心臟,三尖瓣(右心房)發育不良,Labrador Retriever
+拉不拉多,心臟,房室傳導阻滯,Labrador Retriever
+拉不拉多,消化排泄系統,慢性肝炎/銅相關肝炎,Labrador Retriever
+拉不拉多,泌尿系統,胱氨酸尿症,Labrador Retriever
+拉不拉多,泌尿系統,異位輸尿管,Labrador Retriever
+拉不拉多,內分泌系統,甲狀腺功能低下症,Labrador Retriever
+拉不拉多,內分泌系統,糖尿病,Labrador Retriever
+拉不拉多,腦及神經,後天性喉部麻痺,Labrador Retriever
+拉不拉多,腦及神經,猝睡症,Labrador Retriever
+拉不拉多,腦及神經,癲癇,Labrador Retriever
+拉不拉多,腦及神經,運動誘發虛脫,Labrador Retriever
+拉不拉多,腫瘤及癌症,眼球黑色素瘤,Labrador Retriever
+拉不拉多,腫瘤及癌症,虹膜睫狀體上皮細胞瘤,Labrador Retriever
+拉不拉多,腫瘤及癌症,趾鱗狀上皮細胞癌,Labrador Retriever
+拉不拉多,腫瘤及癌症,舌鱗狀上皮細胞癌,Labrador Retriever
+拉不拉多,腫瘤及癌症,淋巴瘤/淋巴肉瘤,Labrador Retriever
+拉不拉多,腫瘤及癌症,組織細胞肉瘤/組織細胞增多症,Labrador Retriever
+拉不拉多,腫瘤及癌症,口腔纖維肉瘤,Labrador Retriever
+拉不拉多,肌肉,前十字韌帶斷裂,Labrador Retriever
+拉不拉多,肌肉,肌小管病變,Labrador Retriever
+拉不拉多,鼻子,鼻角化不全症,Labrador Retriever
+德國狼犬,毛髮皮膚,過敏性皮膚炎,German Shepherd
+德國狼犬,毛髮皮膚,家族遺傳性皮膚血管病變,German Shepherd
+德國狼犬,毛髮皮膚,膿皮症,German Shepherd
+德國狼犬,毛髮皮膚,犬皮膚限界性鈣鹽沈著症,German Shepherd
+德國狼犬,毛髮皮膚,肛門周圍瘺管,German Shepherd
+德國狼犬,眼睛,角膜內皮失養症,German Shepherd
+德國狼犬,眼睛,先天性或青少時期性白內障,German Shepherd
+德國狼犬,眼睛,慢性淺層角膜炎,German Shepherd
+德國狼犬,眼睛,永久性瞳孔殘膜,German Shepherd
+德國狼犬,眼睛,視網膜增生不良,German Shepherd
+德國狼犬,骨骼及關節,肘部發育不良,German Shepherd
+德國狼犬,骨骼及關節,肥大性骨營養不良症,German Shepherd
+德國狼犬,骨骼及關節,髖關節發育不良,German Shepherd
+德國狼犬,骨骼及關節,膝關節異位,German Shepherd
+德國狼犬,骨骼及關節,犬隻全骨炎,German Shepherd
+德國狼犬,骨骼及關節,剝離性骨軟骨炎,German Shepherd
+德國狼犬,血液,A型血友病,German Shepherd
+德國狼犬,血液,溫韋伯氏疾病,German Shepherd
+德國狼犬,血液,血小板促凝劑缺乏症,German Shepherd
+德國狼犬,心臟,心室性心律不整／心臟猝死,German Shepherd
+德國狼犬,心臟,擴張性心肌病,German Shepherd
+德國狼犬,心臟,主動脈瓣下狹窄,German Shepherd
+德國狼犬,心臟,先天性血管畸形,German Shepherd
+德國狼犬,消化排泄系統,胃扭轉,German Shepherd
+德國狼犬,消化排泄系統,炎症性腸病,German Shepherd
+德國狼犬,消化排泄系統,胰腺萎縮,German Shepherd
+德國狼犬,消化排泄系統,後天性巨食道症,German Shepherd
+德國狼犬,消化排泄系統,會陰疝氣,German Shepherd
+德國狼犬,泌尿系統,尿酸鹽膀胱結石,German Shepherd
+德國狼犬,內分泌系統,甲狀腺功能低下,German Shepherd
+德國狼犬,內分泌系統,腦下垂體性侏儒症,German Shepherd
+德國狼犬,腦及神經,癲癇,German Shepherd
+德國狼犬,脊椎脊髓及神經,退化性脊髓病,German Shepherd
+德國狼犬,脊椎脊髓及神經,退化性腰薦椎狹窄症/馬尾綜合症,German Shepherd
+德國狼犬,腫瘤及癌症,遺傳性多灶性腎囊腺癌和結節性皮膚纖維化,German Shepherd
+德國狼犬,腫瘤及癌症,血管肉瘤,German Shepherd
+德國狼犬,肌肉,前十字韌帶斷裂,German Shepherd
+德國狼犬,肌肉,重症肌無力,German Shepherd
+德國狼犬,免疫系統,免疫功能障礙/IgA缺乏症,German Shepherd
+德國狼犬,免疫系統,全身性紅斑狼瘡/圓盤狀紅斑狼瘡,German Shepherd
+德國狼犬,免疫系統,全身性麴菌症,German Shepherd
+德國狼犬,免疫系統,利什曼原蟲症/血管性利什曼原蟲症,German Shepherd
+拳師犬,毛髮皮膚,異位性皮膚炎/吸入性過敏皮膚炎,Boxer
+拳師犬,毛髮皮膚,毛囊蟲病,Boxer
+拳師犬,毛髮皮膚,毛囊發育不良,Boxer
+拳師犬,毛髮皮膚,季節性腹側脫毛症,Boxer
+拳師犬,眼睛,多生睫毛,Boxer
+拳師犬,眼睛,角膜營養不良,Boxer
+拳師犬,眼睛,眼瞼外翻,Boxer
+拳師犬,眼睛,白內障,Boxer
+拳師犬,骨骼及關節,髖關節發育不良,Boxer
+拳師犬,骨骼及關節,肘關節發育不良,Boxer
+拳師犬,骨骼及關節,分離性骨軟骨炎,Boxer
+拳師犬,心臟,拳師犬心肌病,Boxer
+拳師犬,心臟,主動脈瓣狹窄,Boxer
+拳師犬,心臟,肺動脈狹窄症,Boxer
+拳師犬,心臟,心房隔膜缺陷,Boxer
+拳師犬,消化排泄系統,組織細胞潰瘍性結腸炎（拳師犬結腸炎）,Boxer
+拳師犬,消化排泄系統,慢性胰腺炎,Boxer
+拳師犬,泌尿系統,幼年腎病,Boxer
+拳師犬,內分泌系統,甲狀腺功能低下,Boxer
+拳師犬,腦及神經,癲癇,Boxer
+拳師犬,腦及神經,幼年壞死性血管炎/無菌性腦膜炎,Boxer
+拳師犬,脊椎脊髓及神經,漸進性軸突病變,Boxer
+拳師犬,脊椎脊髓及神經,退化性脊髓病,Boxer
+拳師犬,腫瘤及癌症,肥大細胞瘤,Boxer
+拳師犬,腫瘤及癌症,口腔癌,Boxer
+拳師犬,腫瘤及癌症,骨肉瘤,Boxer
+拳師犬,腫瘤及癌症,顱內腦膜瘤,Boxer
+拳師犬,腫瘤及癌症,淋巴瘤,Boxer
+拳師犬,畸形,唇裂/顎裂,Boxer
+拳師犬,生殖系統,隱睪症,Boxer
+拳師犬,生殖系統,難產,Boxer
+拳師犬,嘴及口腔,齒齦增生症,Boxer
+拳師犬,肌肉,前十字韌帶斷裂,Boxer
+拳師犬,肌肉,炎症性肌病,Boxer
+杜賓犬,毛髮皮膚,毛囊蟲症,Doberman Pinscher
+杜賓犬,毛髮皮膚,毛囊發育不良,Doberman Pinscher
+杜賓犬,毛髮皮膚,色素稀釋性脫毛症,Doberman Pinscher
+杜賓犬,毛髮皮膚,犬肢端舔舐性皮膚炎,Doberman Pinscher
+杜賓犬,眼睛,先天性失明,Doberman Pinscher
+杜賓犬,眼睛,白內障,Doberman Pinscher
+杜賓犬,眼睛,永久性瞳孔殘膜,Doberman Pinscher
+杜賓犬,眼睛,視網膜增生不良,Doberman Pinscher
+杜賓犬,眼睛,多生睫毛,Doberman Pinscher
+杜賓犬,眼睛,殘留型增殖性初級玻璃體症,Doberman Pinscher
+杜賓犬,骨骼及關節,髖關節發育不全,Doberman Pinscher
+杜賓犬,骨骼及關節,肘關節發育不良,Doberman Pinscher
+杜賓犬,血液,溫韋伯氏疾病/類血友病,Doberman Pinscher
+杜賓犬,心臟,擴張型心肌病,Doberman Pinscher
+杜賓犬,心臟,動脈硬化症,Doberman Pinscher
+杜賓犬,消化排泄系統,胃扭轉,Doberman Pinscher
+杜賓犬,泌尿系統,荷爾蒙尿失禁,Doberman Pinscher
+杜賓犬,泌尿系統,幼年腎臟疾病,Doberman Pinscher
+杜賓犬,內分泌系統,甲狀腺功能低下,Doberman Pinscher
+杜賓犬,腦及神經,猝睡症,Doberman Pinscher
+杜賓犬,脊椎脊髓及神經,頸椎不穩（搖擺綜合症）,Doberman Pinscher
+杜賓犬,脊椎脊髓及神經,跳舞杜賓病,Doberman Pinscher
+杜賓犬,生殖系統,前列腺疾病,Doberman Pinscher
+杜賓犬,耳朵,先天性耳聾和前庭疾病,Doberman Pinscher
+大白熊犬,毛髮皮膚,過敏性皮膚炎,Great Pyrenees
+大白熊犬,眼睛,視網膜增生不良,Great Pyrenees
+大白熊犬,眼睛,永久性瞳孔殘膜,Great Pyrenees
+大白熊犬,眼睛,白內障,Great Pyrenees
+大白熊犬,眼睛,多生睫毛,Great Pyrenees
+大白熊犬,眼睛,瞼內翻,Great Pyrenees
+大白熊犬,眼睛,角膜營養不良,Great Pyrenees
+大白熊犬,骨骼及關節,髖關節發育不全,Great Pyrenees
+大白熊犬,骨骼及關節,髕骨異位,Great Pyrenees
+大白熊犬,骨骼及關節,肘部發育不良,Great Pyrenees
+大白熊犬,骨骼及關節,軟骨增生不良,Great Pyrenees
+大白熊犬,骨骼及關節,肩部骨軟骨病,Great Pyrenees
+大白熊犬,骨骼及關節,犬隻全骨炎,Great Pyrenees
+大白熊犬,骨骼及關節,關節炎,Great Pyrenees
+大白熊犬,血液,血小板無力症,Great Pyrenees
+大白熊犬,消化排泄系統,胃扭轉,Great Pyrenees
+大白熊犬,內分泌系統,腎上腺皮質分泌不全(愛迪生氏症),Great Pyrenees
+大白熊犬,內分泌系統,甲狀腺功能低下,Great Pyrenees
+大白熊犬,脊椎脊髓及神經,多神經病變複合病的喉部麻痺,Great Pyrenees
+大白熊犬,腫瘤及癌症,骨肉瘤,Great Pyrenees
+大白熊犬,耳朵,外耳炎,Great Pyrenees
+大白熊犬,耳朵,耳聾,Great Pyrenees
