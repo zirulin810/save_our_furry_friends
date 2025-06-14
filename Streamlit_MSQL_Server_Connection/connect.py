@@ -4,8 +4,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # 載入環境檔
-dotenv_path = Path(__file__).resolve().parents[1] / ".env"
-load_dotenv(dotenv_path)
+load_dotenv()
 
 # 連接資料庫
 def get_connection():
