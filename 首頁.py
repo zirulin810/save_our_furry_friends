@@ -2,14 +2,18 @@ import streamlit as st
 import Streamlit_MSQL_Server_Connection.connect as connect
 
 st.title("🐾 拯救毛小孩")
-# st.write("請使用左側側邊欄選擇頁面")
+
+
+# session_state 說明:
+# 1. logged_in : 紀錄使用者是否有登入(True, False)
+# 2. user_name : 紀錄目前使用者名稱
 
 if 'conn' not in st.session_state:
     st.session_state.conn = connect.get_connection()
     st.session_state.cur = st.session_state.conn.cursor()
 
-if 'user_state' not in st.session_state:
-    st.session_state.user_state = 'new'
+cursor = st.session_state.cur
+conn = st.session_state.conn
 
 st.warning("如無帳號請先註冊", icon="⚠️")
 username = st.text_input("使用者名稱:")
@@ -25,9 +29,8 @@ with col2:
 
 # 登入處理
 if push_btn == 1:
-    query = "SELECT * FROM user_test_record WHERE user_name = %s"
+    query = "SELECT * FROM registered_user_record WHERE user_name = %s"
     params = (username,)
-    cursor = st.session_state.cur
     cursor.execute(query, params=params)
     result = cursor.fetchall()
 
@@ -35,26 +38,29 @@ if push_btn == 1:
         st.error("查無此使用者! 請先註冊", icon="🚨")
         st.session_state.logged_in = False
     else:
-        st.success("登入成功", icon="✅")
+        st.success("登入成功! 請使用左側欄位選擇頁面", icon="✅")
         st.session_state.logged_in = True
         st.session_state.user_name = username
-        st.session_state.user_state = 'old'
-        st.switch_page("pages/1_尋找你的夢中情狗.py")
 
 #註冊處理
 elif push_btn == 2:
-    query = "SELECT EXISTS (SELECT * FROM user_test_record WHERE user_name = %s);"
+    query = "SELECT EXISTS (SELECT * FROM registered_user_record WHERE user_name = %s);"
     params = (username,)
-    cursor = st.session_state.cur
     cursor.execute(query, params=params)
     result = cursor.fetchone()
 
     if result[0] == True:
         st.error("使用者已存在", icon="🚨")
     else:
-        st.session_state.logged_in = True
-        st.session_state.user_name = username
-        st.switch_page("pages/1_尋找你的夢中情狗.py")
+        query = "INSERT INTO registered_user_record(user_name) VALUES (%s)"
+        params = (username, )
+        cursor = st.session_state.cur
+        cursor.execute(query, params=params)
+        conn.commit()
+        st.success("註冊成功! 請重新登入! ")
+
+
+        
             
             
             
