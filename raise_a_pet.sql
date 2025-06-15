@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1:3306
--- 產生時間： 2025-06-11 08:47:48
+-- 產生時間： 2025-06-14 15:40:05
 -- 伺服器版本： 9.1.0
 -- PHP 版本： 8.3.14
 
@@ -34,21 +34,29 @@ CREATE TABLE IF NOT EXISTS `diary_record` (
   `dog_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '狗狗名字',
   `dog_id` int UNSIGNED NOT NULL COMMENT '狗狗ID',
   `date` date NOT NULL COMMENT '紀錄日期',
-  `time` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '時間點(整天、凌晨、早上、中午、晚上)',
+  `time` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '時間點(整天、凌晨、早上、下午、晚上)',
   `mood` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '狗狗心情',
   `content` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '內容',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '建立時間',
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新時間',
   PRIMARY KEY (`id`),
   KEY `fk_diary_dog` (`dog_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='使用者日記紀錄列表';
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='使用者日記紀錄列表';
 
 --
 -- 傾印資料表的資料 `diary_record`
 --
 
 INSERT INTO `diary_record` (`id`, `user_name`, `dog_name`, `dog_id`, `date`, `time`, `mood`, `content`, `created_at`, `updated_at`) VALUES
-(1, '小芬', '嘿嘿', 2, '2025-06-10', '111', '111', '111111', '2025-06-11 08:45:39', '2025-06-11 08:45:39');
+(1, '小芬', '嘿嘿', 4, '2025-06-10', '下午', '開心', '下午跟嘿嘿一起去公園玩球，遇到好朋友蛋餅，一起追著球玩了好久。\r\n\r\n', '2025-06-11 08:45:39', '2025-06-14 15:28:11'),
+(3, '小宗', '蘿蔔糕', 5, '2025-06-12', '早上', '興奮', '蘿蔔糕今天坐車兜風，風吹耳朵飛起來，超級可愛的！\r\n', '2025-06-14 15:19:11', '2025-06-14 15:39:08'),
+(4, '小榛', '豆漿', 7, '2025-06-01', '清晨', '興奮', '豆漿今天跟嘿嘿一起追松鼠（雖然沒追到），但兩隻超有默契！', '2025-06-14 15:21:51', '2025-06-14 15:21:51'),
+(5, '小榛', '豆漿', 7, '2025-06-04', '整天', '無聊', '豆漿一整天沒出門，只好在家咬自己的玩具熊，還偷咬我拖鞋！', '2025-06-14 15:23:19', '2025-06-14 15:23:19'),
+(6, '小芬', '白白', 2, '2025-06-06', '下午', '放鬆', '白白曬太陽曬到睡著，四腳朝天在陽台打呼，像小豬一樣好療癒。\r\n\r\n', '2025-06-14 15:24:32', '2025-06-14 15:24:32'),
+(7, '小如', '布丁', 6, '2025-06-07', '整天', '想撒嬌', '布丁黏著我一整天，走到哪跟到哪，還會用鼻子頂我求摸摸，超撒嬌！\r\n\r\n', '2025-06-14 15:25:52', '2025-06-14 15:25:52'),
+(8, '小芬', '白白', 2, '2025-06-12', '早上', '生氣', '白白被嘿嘿搶走骨頭，氣得不跟牠玩，自己躲角落鬱卒中', '2025-06-14 15:27:10', '2025-06-14 15:27:10'),
+(9, '小如', '布丁', 6, '2025-06-09', '整天', '開心', '今天穿了新圍兜兜，走在街上被大家誇帥，尾巴彎到天上去！\r\n\r\n', '2025-06-14 15:30:08', '2025-06-14 15:30:08'),
+(10, '小榛', '豆漿', 7, '2025-06-07', '晚上', '害怕', '豆漿去打預防針，一上診療台就瑟瑟發抖，看醫生像看到鬼。', '2025-06-14 15:31:40', '2025-06-14 15:31:40');
 
 -- --------------------------------------------------------
 
@@ -2124,16 +2132,64 @@ CREATE TABLE IF NOT EXISTS `dog_owner_record` (
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新時間',
   PRIMARY KEY (`id`),
   UNIQUE KEY `uk_user_dog` (`user_name`,`dog_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='使用者飼養紀錄列表';
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='使用者飼養紀錄列表';
 
 --
 -- 傾印資料表的資料 `dog_owner_record`
 --
 
 INSERT INTO `dog_owner_record` (`id`, `user_name`, `dog_name`, `created_at`, `updated_at`) VALUES
-(1, '小芬', '嘿嘿', '2025-06-11 07:30:54', '2025-06-11 07:30:54'),
+(1, '小恩', '嘿嘿', '2025-06-11 07:31:27', '2025-06-14 15:00:12'),
 (2, '小芬', '白白', '2025-06-11 07:31:16', '2025-06-11 07:31:16'),
-(3, '小恩', '嘿嘿', '2025-06-11 07:31:27', '2025-06-11 08:05:11');
+(3, '小秉', '蛋餅', '2025-06-14 15:04:06', '2025-06-14 15:04:06'),
+(4, '小芬', '嘿嘿', '2025-06-14 15:00:58', '2025-06-14 15:00:58'),
+(5, '小宗', '蘿蔔糕', '2025-06-14 15:02:13', '2025-06-14 15:02:13'),
+(6, '小如', '布丁', '2025-06-14 15:02:29', '2025-06-14 15:02:29'),
+(7, '小榛', '豆漿', '2025-06-14 15:03:32', '2025-06-14 15:03:32');
+
+-- --------------------------------------------------------
+
+--
+-- 資料表結構 `loved_dog_record`
+--
+
+DROP TABLE IF EXISTS `loved_dog_record`;
+CREATE TABLE IF NOT EXISTS `loved_dog_record` (
+  `id` int UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '流水ID',
+  `user_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '使用者名稱',
+  `animal_id` int NOT NULL COMMENT '動物代碼',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '建立時間',
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新時間',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='喜歡犬隻紀錄列表';
+
+-- --------------------------------------------------------
+
+--
+-- 資料表結構 `registered_user_record`
+--
+
+DROP TABLE IF EXISTS `registered_user_record`;
+CREATE TABLE IF NOT EXISTS `registered_user_record` (
+  `id` int UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '流水ID',
+  `user_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '使用者名稱',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '建立時間',
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新時間',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `user_name` (`user_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='使用者列表';
+
+--
+-- 傾印資料表的資料 `registered_user_record`
+--
+
+INSERT INTO `registered_user_record` (`id`, `user_name`, `created_at`, `updated_at`) VALUES
+(1, '小芬', '2025-06-14 15:05:02', '2025-06-14 15:05:02'),
+(2, '小恩', '2025-06-14 15:05:09', '2025-06-14 15:05:09'),
+(3, '小宗', '2025-06-14 15:05:16', '2025-06-14 15:05:16'),
+(4, '小如', '2025-06-14 15:05:22', '2025-06-14 15:05:22'),
+(5, '小秉', '2025-06-14 15:05:34', '2025-06-14 15:05:34'),
+(6, '小榛', '2025-06-14 15:06:11', '2025-06-14 15:06:11');
 
 -- --------------------------------------------------------
 
