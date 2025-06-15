@@ -1,27 +1,46 @@
 import streamlit as st
 import pandas as pd
+from utils import streamlit_utils # type: ignore
+import Streamlit_MSQL_Server_Connection.connect as connect # type: ignore
+
+streamlit_utils.require_login()
 
 st.title("❤️ 我的最愛")
-
-if 'logged_in' not in st.session_state or st.session_state.logged_in == False:
-    st.warning("請先登入")
-    st.stop()  # 停止載入頁面內容
     
-favorites = st.session_state.get("favorites", [])
+def get_favorites(user_name: str) -> pd.DataFrame:
+    conn = connect.get_connection()
+    
+    sql = """
+        SELECT d.animal_id, d.animal_Variety, d.animal_sex, d.animal_bodytype,
+               d.animal_age, d.animal_colour, d.animal_sterilization, d.picture,
+               d.animal_remark, s.shelter_name, s.shelter_address, s.shelter_tel
+        FROM loved_dog_record AS l
+        JOIN shelter_dogs_info AS d ON l.animal_id = d.animal_id
+        JOIN shelter_info AS s ON d.shelter_id = s.shelter_id
+        WHERE l.user_name = %s
+        ORDER BY l.created_at DESC
+    """
+    df = pd.read_sql(sql, conn, params=(user_name,))
+    conn.close()
+    return df
 
-if favorites:
-    for fav in favorites:
+favorites = get_favorites(st.session_state.user_name)
+
+if not favorites.empty:
+    for _, fav in favorites.iterrows():
         with st.container(border=True):
             cols = st.columns([1, 2])
             with cols[0]:
-                if 'picture' in fav and pd.notna(fav['picture']):
+                if fav['picture']:
                     st.image(fav['picture'], width=150)
+                else:
+                    st.markdown("📷 尚無圖片")
             with cols[1]:
                 st.subheader(f"編號：{fav['animal_id']} / {fav['animal_Variety']}")
                 st.markdown(f"""
                 - **性別**：{fav['animal_sex']}　**體型**：{fav['animal_bodytype']}　**年齡**：{fav['animal_age']}
                 - **毛色**：{fav['animal_colour']}　**是否絕育**：{fav['animal_sterilization']}
-                - 📝 備註：{fav.get('animal_remark', '無')}
+                - 📝 備註：{fav['animal_remark'] or '無'}
                 - 🏠 收容所：{fav['shelter_name']}
                 - 📍 地址：{fav['shelter_address']}
                 - ☎️ 電話：{fav['shelter_tel']}
