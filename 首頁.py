@@ -15,6 +15,11 @@ if 'conn' not in st.session_state:
 cursor = st.session_state.cur
 conn = st.session_state.conn
 
+# 若已經登入則關閉登入與註冊功能
+if st.session_state.logged_in == True:
+    st.success(f"目前使用者: {st.session_state.user_name}")
+    st.stop()
+
 st.warning("如無帳號請先註冊", icon="⚠️")
 username = st.text_input("使用者名稱:")
 
@@ -26,6 +31,7 @@ with col1:
 with col2:
     if st.button("註冊"):
         push_btn = 2
+
 
 # 登入處理
 if push_btn == 1:
