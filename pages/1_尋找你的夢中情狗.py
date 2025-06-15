@@ -56,7 +56,6 @@ adaptability_questions = [
     {'question':'狗狗需要運動的程度','key':'exercise_need'},
     {'question':'狗狗易訓練程度', 'key':'easy_to_train'} 
 ]
-
 # 狗狗資訊問題
 info_questions = [
     {'question':'狗狗的顏色', 'key':'dog_breed_group', 'options':['黑色', '白色', '其他']},
@@ -66,11 +65,42 @@ info_questions = [
     {'question':'狗狗是否絕育', 'key':'sterilization', 'options':['是', '否']},
     {'question':'狗狗的智商', 'key':'dog_intelligence', 'options':[1, 2, 3, 4, 5]}
 ]
-
 # 使用者問題
 area_questions = [
     {'question':'您的所在地址', 'key':'user_address', 'options':['臺北市', '新北市', '桃園市', '臺南市', '基隆市', '臺中市', '新竹市', '新竹縣', '彰化縣', '南投縣', '嘉義市', '高雄市', '屏東縣', '宜蘭縣', '花蓮縣', '臺東縣', '連江縣', '金門縣', '澎湖縣', '雲林縣', '苗栗縣']}
 ]
+
+## CSS Style
+st.markdown(
+    """
+    <style>
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .top {
+        height: 50%;
+        background-color: lightcoral;
+        padding: 10px;
+    }
+    .bottom {
+        height: 50%;
+        background-color: lightyellow;
+        padding: 10px;
+    }
+    @keyframes breathing {
+        0%   { transform: scale(1.4); }
+        50%  { transform: scale(1.7); }
+        100% { transform: scale(1.4); }
+    }
+    .breathing-text {
+        color:red;
+        animation: breathing 3s ease-in-out infinite;
+    }
+    </style>
+    """
+    ,True
+)
 
 # 確認連接資料庫
 if 'conn' not in st.session_state:
@@ -80,6 +110,7 @@ if 'conn' not in st.session_state:
 cursor = st.session_state.cur
 conn = st.session_state.conn
 
+## 頁面初始化
 if 'page' not in st.session_state:
     state_initialization()
 
@@ -308,37 +339,6 @@ if st.session_state.page == 'stage4':
 
         #介面設計
         st.markdown(
-            """
-            <style>
-            .container {
-                display: flex;
-                flex-direction: column;
-            }
-            .top {
-                height: 50%;
-                background-color: lightcoral;
-                padding: 10px;
-            }
-            .bottom {
-                height: 50%;
-                background-color: lightyellow;
-                padding: 10px;
-            }
-            @keyframes breathing {
-                0%   { transform: scale(1.4); }
-                50%  { transform: scale(1.7); }
-                100% { transform: scale(1.4); }
-            }
-            .breathing-text {
-                color:red;
-                animation: breathing 3s ease-in-out infinite;
-            }
-            .breathing-text-second{
-                color:#005AB5;
-                animation: breathing 2.5s ease-in-out infinite;
-            }
-            </style>
-            """
             f"""
             <div style="font-size:36px; text-align: center; font-style: normal; font-weight: bold; white-space:nowrap;"> 
                 <span style="color:white">為您推薦</span><span style="color:#7FFFD4">相似地夢中情狗...🐶</span>
@@ -443,33 +443,6 @@ if st.session_state.page == 'stage4':
         #吠叫程度轉換
 
         st.markdown(
-            """
-            <style>
-            .container {
-                display: flex;
-                flex-direction: column;
-            }
-            .top {
-                height: 50%;
-                background-color: lightcoral;
-                padding: 10px;
-            }
-            .bottom {
-                height: 50%;
-                background-color: lightyellow;
-                padding: 10px;
-            }
-            @keyframes breathing {
-                0%   { transform: scale(1.4); }
-                50%  { transform: scale(1.7); }
-                100% { transform: scale(1.4); }
-            }
-            .breathing-text {
-                color:red;
-                animation: breathing 3s ease-in-out infinite;
-            }
-            </style>
-            """
             f"""
             <div style="font-size:36px; text-align: center; font-style: normal; font-weight: bold; white-space:nowrap;"> 
                 <span style="color:white">您的</span><span style="color:red">夢中情狗...🐶</span>
@@ -530,7 +503,7 @@ if st.session_state.page == 'stage4':
                 st.session_state.dog_result_index += 1
                 st.rerun()
     
-    #連接收容所功能
+    ## 連接收容所功能
     if st.button("前往查看收容所狗狗"):
         st.switch_page("pages/2_收養配對.py")
     if st.button("重新測驗"):
