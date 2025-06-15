@@ -506,6 +506,8 @@ if st.session_state.page == 'stage4':
     ## 連接收容所功能
     if st.button("前往查看收容所狗狗"):
         st.switch_page("pages/2_收養配對.py")
+
+    ## 重新測驗
     if st.button("重新測驗"):
         state_initialization()
         st.rerun()
