@@ -46,14 +46,17 @@ if not favorites.empty:
                 else:
                     st.markdown("📷 尚無圖片")
             with cols[1]:
+                google_map_url = f"https://www.google.com/maps/search/?api=1&query={fav['shelter_address']}"
+                phone_link = f"tel:{fav['shelter_tel']}"
+
                 st.subheader(f"編號：{fav['animal_id']} / {fav['animal_Variety']}")
                 st.markdown(f"""
                 - **性別**：{fav['animal_sex']}　**體型**：{fav['animal_bodytype']}　**年齡**：{fav['animal_age']}
                 - **毛色**：{fav['animal_colour']}　**是否絕育**：{fav['animal_sterilization']}
                 - 📝 備註：{fav['animal_remark'] or '無'}
-                - 🏠 收容所：{fav['shelter_name']}
+                - 🏠 收容所：[ {fav['shelter_name']} ]({google_map_url})
                 - 📍 地址：{fav['shelter_address']}
-                - ☎️ 電話：{fav['shelter_tel']}
+                - ☎️ 電話：[ {fav['shelter_tel']} ]({phone_link})
                 """)
             if st.button("🗑️ 移除最愛", key=f"delete_{index}"):
                 delete_favorite(st.session_state.user_name, fav['animal_id'])
