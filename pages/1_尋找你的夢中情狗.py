@@ -5,6 +5,13 @@ import numpy as np
 from bs4 import BeautifulSoup
 import requests
 
+# session_state說明:
+    # 1. ans_adaptability: 記錄[adaptability_questions]測驗選擇
+    # 2. ans_info: 記錄[info_questions]測驗選擇
+    # 3. ans_area: 記錄[area_questions]測驗選擇
+    # 4. dog_result: 記錄"有匹配查詢結果時"的狗狗結果
+    # 5. dog_result_index: 在查看"有匹配查詢結果"時的狗狗索引，
+
 ## 函式庫
 # 初始化session_state
 def state_initialization():
@@ -28,10 +35,12 @@ def degree_transform(val):
     else:
         return '高'
 
+# 確認是否登入
 if 'logged_in' not in st.session_state or st.session_state.logged_in == False:
     st.warning("請先登入")
     st.stop()  # 停止載入頁面內容
 
+# 登出功能按鍵
 col1, col2 = st.columns([7, 1])
 with col2:
     if st.button("登出"):
@@ -185,6 +194,20 @@ if st.session_state.page == 'stage3':
         if st.button("查詢結果"):
             st.session_state.page = 'stage4'
             st.session_state.ans_area = area
+            
+            query = """INSERT INTO user_test_record(user_name, loved_color, loved_size, 
+                        loved_age, loved_gender, loved_sterilization, 
+                        user_lived_city, apartment, rookie, exercise_need, 
+                        easy_to_train, intelligence) 
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+            params = (st.session_state.user_name, st.session_state.ans_info[0], st.session_state.ans_info[1], 
+                      st.session_state.ans_info[2], st.session_state.ans_info[3], st.session_state.ans_info[4], 
+                      st.session_state.ans_area[0], st.session_state.ans_adaptability[0], st.session_state.ans_adaptability[1], 
+                      st.session_state.ans_adaptability[2], st.session_state.ans_adaptability[3], st.session_state.ans_info[5])
+            
+            cursor.execute(query, params=params)
+            conn.commit()
+
             st.rerun()
     
 
@@ -263,7 +286,8 @@ if st.session_state.page == 'stage4':
                     T.intelligence, T.easy_to_train,
                     I.dog_breed_group, I.dog_size, I.lower_height, I.upper_height,
                     I.lower_weight, I.upper_weight, I.lower_life_span, I.upper_life_span,
-                    I.more_detail_website FROM dogs_adaptability A 
+                    I.more_detail_website, bark_tendency, shedding
+                    FROM dogs_adaptability A 
                     JOIN dogs_training_ability T ON A.dog_kind = T.dog_kind 
                     JOIN dog_kind_info I ON A.dog_kind = I.dog_kind 
                     WHERE A.dog_kind = %s;"""
@@ -279,6 +303,8 @@ if st.session_state.page == 'stage4':
             img_url = images[0]['src']
 
         sens = degree_transform(df.loc[0, 'sensitivity'])
+        bark = degree_transform(df.loc[0, 'bark_tendency'])
+        shedding = degree_transform(df.loc[0, 'shedding'])
 
         #介面設計
         st.markdown(
@@ -307,6 +333,10 @@ if st.session_state.page == 'stage4':
                 color:red;
                 animation: breathing 3s ease-in-out infinite;
             }
+            .breathing-text-second{
+                color:#005AB5;
+                animation: breathing 2.5s ease-in-out infinite;
+            }
             </style>
             """
             f"""
@@ -328,15 +358,44 @@ if st.session_state.page == 'stage4':
                     <p style = "color:black; font-size:22px; font-family:fantasy;">詳細資訊: <a href="{url}" target="_blank">🔗點我看詳細資訊</a></p>
                 </div>
                 <br>
-                <div class="bottom" style = "text-align:center; background-color:#FFE4E1; padding:20px; border-radius:15px; border:5px solid #DC143C; box-shadow:2px 2px 10px rgba(0,0,0,0.2); width: 100%;">
-                    <p class="breathing-text" style = "color:black; font-size:28px; font-family:fantasy; color">⚠️狗狗注意事項⚠️</p>
+                <div class="bottom" style = "font-family:fantasy; text-align:center; background-color:#FFE4E1; padding:20px; border-radius:15px; border:5px solid #DC143C; box-shadow:2px 2px 10px rgba(0,0,0,0.2); width: 100%;">
+                    <p class="breathing-text" style = "font-size:24px;">⚠️狗狗注意事項⚠️</p>
                     <p style = "color:black; font-size:22px; font-family:fantasy;">敏感度:&nbsp{sens}</p>
+                    <p style = "color:black; font-size:22px; font-family:fantasy;">吠叫程度:&nbsp{bark}</p>
+                    <p style = "color:black; font-size:22px; font-family:fantasy;">掉毛程度:&nbsp{shedding}</p>
                 </div>
             </div>
             <br>
         """
         , True
         )
+
+        query = "SELECT category, symptom FROM dogs_disease WHERE dog_kind_EN = %s"
+        params = (recommended_dog.iloc[index, 0], )
+        cursor.execute(query, params=params)
+        disease_result = cursor.fetchall()
+        if disease_result != []:
+            with st.expander("狗狗潛在疾病", icon="☠️"):
+                df_disease = pd.DataFrame(disease_result)
+                df_disease.columns = ['部位', '症狀']
+                st.dataframe(df_disease, use_container_width=True)
+            table = df_disease.to_html(index=False)
+            
+
+        data = {
+            '':['你的選擇', '推薦狗狗結果'],
+            '適應公寓程度':[st.session_state.ans_adaptability[0], df.loc[0, 'apartment']],
+            '適合新手程度':[st.session_state.ans_adaptability[1], df.loc[0, 'novice_owner']],
+            '狗狗需要運動程度':[st.session_state.ans_adaptability[2], df.loc[0, 'exercise_need']],
+            '狗狗易訓練程度':[st.session_state.ans_adaptability[3], df.loc[0, 'easy_to_train']],
+            '狗狗體型':[st.session_state.ans_info[1], df.loc[0, 'dog_size']],
+            '狗狗智商':[st.session_state.ans_info[5], df.loc[0, 'intelligence']]
+        }
+        df_compare = pd.DataFrame(data).set_index('').T
+
+        with st.expander("你的測驗選擇與推薦狗狗的分數......"):
+            st.dataframe(df_compare, use_container_width=True)
+            
         column1, column2, column3, column4, column5 = st.columns(5)
         with column1:
             if st.button("⬅ 上一隻", disabled = st.session_state.recommend_index == 0):
@@ -441,6 +500,17 @@ if st.session_state.page == 'stage4':
         """
         , True
         )
+        query = "SELECT category, symptom FROM dogs_disease WHERE dog_kind_EN = %s"
+        params = (dog[0], )
+        cursor.execute(query, params=params)
+        disease_result = cursor.fetchall()
+        if disease_result != []:
+            with st.expander("狗狗潛在疾病", icon="☠️"):
+                df_disease = pd.DataFrame(disease_result)
+                df_disease.columns = ['部位', '症狀']
+                st.dataframe(df_disease, use_container_width=True)
+            table = df_disease.to_html(index=False)
+
         with st.expander("你的測驗選擇......"):
             st.write(f"適應公寓程度: {st.session_state.ans_adaptability[0]}")
             st.write(f"適合新手程度: {st.session_state.ans_adaptability[1]}")
@@ -459,8 +529,16 @@ if st.session_state.page == 'stage4':
             if st.button("⇨ 下一隻", disabled = idx == total - 1):
                 st.session_state.dog_result_index += 1
                 st.rerun()
-        
-        if st.button("結束"):
-            close_connection()
+    
+    #連接收容所功能
+    if st.button("前往查看收容所狗狗"):
+        st.switch_page("pages/收養配對.py")
+    if st.button("重新測驗"):
+        state_initialization()
+        st.rerun()
+
+    ## 關閉資料庫    
+    # if st.button("結束"):
+    #     close_connection()
 
 
