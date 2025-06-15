@@ -84,7 +84,6 @@ if "df" not in st.session_state:
 
 st.title("🐾 猜你喜歡...")
 
-# ✅ 顯示資料卡片
 if st.session_state.index < len(st.session_state.df):
     row = st.session_state.df.iloc[st.session_state.index]
 
