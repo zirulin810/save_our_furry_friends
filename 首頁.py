@@ -16,7 +16,7 @@ cursor = st.session_state.cur
 conn = st.session_state.conn
 
 # 若已經登入則關閉登入與註冊功能
-if st.session_state.logged_in == True:
+if 'logged_in' in st.session_state and st.session_state.logged_in == True:
     st.success(f"目前使用者: {st.session_state.user_name}")
     st.stop()
 
