@@ -46,7 +46,7 @@ def load_data(info: LovedInfo, user_name: str):
                d.animal_age, d.animal_colour, d.animal_sterilization, d.picture,
                d.animal_remark, s.shelter_name, s.shelter_address, s.shelter_tel,
                -- 計算匹配分數
-               (CASE WHEN d.animal_colour = %s THEN 3 ELSE 0 END +
+               (CASE WHEN d.animal_colour = %s THEN 2 ELSE 0 END +
                 CASE WHEN d.animal_sex = %s THEN 1 ELSE 0 END +
                 CASE WHEN d.animal_bodytype = %s THEN 1 ELSE 0 END +
                 CASE WHEN d.animal_age = %s THEN 1 ELSE 0 END +
@@ -96,7 +96,7 @@ def save_loved_dog(user_name: str, animal_id: int):
 
 st.title("🐾 猜你喜歡...")
 
-if "ans_info" in st.session_state and "ans_area" in st.session_state:
+if "ans_info" in st.session_state and len(st.session_state.ans_info) > 0:
     # 絕育狀態轉換："是" → "T"，"否" → "F"
     sterilization = "T" if st.session_state.ans_info[4] == "是" else "F"
 
