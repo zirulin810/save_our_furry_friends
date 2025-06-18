@@ -119,6 +119,32 @@ if "ans_info" in st.session_state and len(st.session_state.ans_info) > 0:
     )
 
     st.session_state.df = load_data(info, st.session_state.user_name)
+else:
+    conn = connect.get_connection()
+    query = """
+        SELECT loved_color, loved_size, loved_age, loved_gender,
+               loved_sterilization, user_lived_city
+        FROM user_test_record
+        WHERE user_name = %s
+        ORDER BY updated_at DESC
+        LIMIT 1
+    """
+    df_test = pd.read_sql(query, conn, params=[st.session_state.user_name])
+    conn.close()
+
+    if not df_test.empty:
+        row = df_test.iloc[0]
+        info = LovedInfo(
+            color=row['loved_color'],
+            size=row['loved_size'],
+            age=row['loved_age'],
+            gender=row['loved_gender'],
+            sterilization=row['loved_sterilization'],
+            city=row['user_lived_city']
+        )
+        st.session_state.df = load_data(info, st.session_state.user_name)
+    else:
+        st.info("尚未填寫過測驗，請先完成測驗以獲得推薦狗狗。")
 
 if "df" not in st.session_state:
     st.session_state.df = load_raw_data()
