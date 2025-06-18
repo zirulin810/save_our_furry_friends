@@ -143,17 +143,46 @@ if st.session_state.show_my_diary:
     cursor = conn.cursor(dictionary=True)
     cursor.execute("SELECT id, date, time, mood, content, dog_name FROM diary_record WHERE user_name = %s ORDER BY created_at DESC", (selected_user,))
     diaries = cursor.fetchall()
+
+    for diary in diaries:
+        with st.container(border=True):
+            st.subheader(f"🐶 {diary['dog_name']}")
+            st.write(f"🕒 {diary['date']} {diary['time']}　😊 心情：{diary['mood']}")
+            st.markdown(f"📖 {diary['content']}")
+
+            # 顯示編輯與刪除按鈕
+            if st.button("✏️ 修改日記", key=f"edit_{diary['id']}"):
+                st.session_state[f"edit_mode_{diary['id']}"] = True
+
+            if st.session_state.get(f"edit_mode_{diary['id']}", False):
+                new_mood = st.text_input("更新心情", value=diary['mood'], key=f"mood_{diary['id']}")
+                new_content = st.text_area("更新內容", value=diary['content'], key=f"content_{diary['id']}")
+                if st.button("儲存修改", key=f"save_{diary['id']}"):
+                    try:
+                        cursor.execute(
+                            "UPDATE diary_record SET mood = %s, content = %s, updated_at = NOW() WHERE id = %s",
+                            (new_mood, new_content, diary['id'])
+                        )
+                        conn.commit()
+                        st.success("日記已更新！")
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"修改失敗：{e}")
+
+            if st.button("🗑️ 刪除日記", key=f"delete_{diary['id']}"):
+                try:
+                    cursor.execute("DELETE FROM diary_record WHERE id = %s", (diary['id'],))
+                    conn.commit()
+                    st.warning("日記已刪除！")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"刪除失敗：{e}")
+
+    if not diaries:
+        st.info("尚無任何日記紀錄。")
+
     cursor.close()
     conn.close()
-
-    if diaries:
-        for d in diaries:
-            with st.container():
-                st.subheader(f"🐶 {d['dog_name']}")
-                st.write(f"🕒 {d['date']} {d['time']}　😊 {d['mood']}")
-                st.markdown(f"📖 {d['content']}")
-    else:
-        st.info("尚無任何日記紀錄。")
 
 # 所有日記（預設）
 if not any([st.session_state.show_manage_dog, st.session_state.show_add_diary, st.session_state.show_my_diary]):
